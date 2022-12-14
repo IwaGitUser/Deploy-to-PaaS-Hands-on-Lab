@@ -50,6 +50,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'IwaGitTest20221214'
-          slot-name: 'Production'
+          slot-name: 'staging'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C765974340D943B096605F6084912961 }}
           package: '*.jar'
